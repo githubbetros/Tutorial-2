@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - EnemyScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -17,6 +18,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -48,7 +55,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -57,19 +76,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1712}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 1884}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 3170}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 3242}
+    - Class: 114
+      Script: {instanceID: 4786}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -181,6 +202,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -309,7 +336,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 173ecd5cea0618bf248f60240ec805d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -628,4 +655,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/vgm10/OneDrive/Documents/Tutorial 2 Build/Tutorial 2.exe
+  playerPath: C:/Users/vgm10/OneDrive/Documents/Challenge 2 Build/Tutorial 2.exe
