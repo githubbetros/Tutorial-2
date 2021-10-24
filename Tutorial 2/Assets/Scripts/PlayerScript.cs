@@ -102,7 +102,7 @@ public class PlayerScript : MonoBehaviour
 
         if(scoreValue == 8 && !gameOver)
         {
-            win.text = "You Win! A Game By Alex Betros!";
+            win.text = "You Win! Game created by Alex Betros!";
             gameOver = true;
             musicSource.clip = victory;
             musicSource.Play();
