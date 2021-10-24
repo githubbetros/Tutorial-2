@@ -1973,6 +1973,7 @@ GameObject:
   - component: {fileID: 108752896}
   - component: {fileID: 108752895}
   - component: {fileID: 108752894}
+  - component: {fileID: 108752897}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Ground
@@ -4320,6 +4321,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &108752897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108752892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bb29b1fbe3234479d1dfe7c5fafa78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132620916
 GameObject:
   m_ObjectHideFlags: 0

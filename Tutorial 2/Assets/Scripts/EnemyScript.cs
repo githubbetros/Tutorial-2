@@ -21,11 +21,6 @@ void Start()
      // Keep a note of the time the movement started.
           startTime = Time.time;
 
-          if(Input.GetKey("escape"))
-          {
-               Application.Quit();
-          }
-
      // Calculate the journey length.
           journeyLength = Vector2.Distance(startMarker.position, endMarker.position);
      }
