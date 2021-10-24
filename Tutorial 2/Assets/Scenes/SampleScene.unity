@@ -7570,7 +7570,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7666,7 +7666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3013f2c43d37545b51fd3cead3ce21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  victory: {fileID: 8300000, guid: 010ae44f13fac794c8af716dbf8dccda, type: 3}
+  victory: {fileID: 8300000, guid: f2fc2b5e8627b5246b634ea68dbce479, type: 3}
   defaultMusic: {fileID: 8300000, guid: 89bf1ddbd0399194c841d942ffdb4ef4, type: 3}
   speed: 4
   score: {fileID: 1804731327}
